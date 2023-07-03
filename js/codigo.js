@@ -171,7 +171,7 @@ function reiniciarJuego () {
     location.reload()
 }
 
-// edicion prueba de git
+// edicion prueba de git version 2 
 
 
 
