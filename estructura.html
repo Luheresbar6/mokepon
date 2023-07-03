@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>MOKEPON 🪖</title>
+      <link rel="stylesheet" href="css/style.css">
+      <script defer src="js/codigo.js"></script>
+   </head>
+   <body>
+      <main>
+
+         <section>
+            <h1 class="titulo">MOKEPON! 🔥💧🌱</h1>
+         </section>
+
+         <section id="seleccionar-mascota">
+            <h2 class="subtitulo">Elige a tu mascota:</h2>
+            <div class="tarjetas">
+               <label for="hipodoge" class="tarjeta-mascota">
+                  <p>Hipodoge</p>
+                  <img src="assets/mokepons_mokepon_hipodoge_attack.png" alt="imagen-hipodoge">
+                  <input type="radio" name="mascota" id="hipodoge">
+               </label>
+
+               <label for="capipepo" class="tarjeta-mascota">
+                  <p>Capipepo</p>
+                  <img src="assets/mokepons_mokepon_capipepo_attack.png" alt="imagen-capipepo">
+                  <input type="radio" name="mascota" id="capipepo">
+               </label>
+
+               <label for="ratihuella" class="tarjeta-mascota">
+                  <p>Ratihuella</p>
+                  <img src="assets/mokepons_mokepon_ratigueya_attack.png" alt="imagen-ratihuella">
+                  <input type="radio" name="mascota" id="ratihuella">
+               </label>
+            </div>
+               
+
+               <!-- <label for="langostelvis">Langostelvis</label>
+               <input type="radio" name="mascota" id="langostelvis">
+
+               <label for="tucapalma">Tucapalma</label>
+               <input type="radio" name="mascota" id="tucapalma">
+
+               <label for="pydos">Pydos</label>
+               <input type="radio" name="mascota" id="pydos"> -->
+               
+               <button id="boton-mascota">Seleccionar</button>
+
+            <!-- Hipodoge -> Agua
+            Capipepo -> Tierra
+            Ratihuella -> Fuego
+            Langostelvis -> Agua y Fuego
+            Tucapalma -> Agua y Tierra
+            Pydos -> Tierra y Fuego -->
+
+
+         </section>
+
+         <section id="seleccionar-ataque">
+            <h2>Elige tu ataque:</h2>
+            <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vidas-enemigo" >3</span> vidas</p>
+            <p>
+               <button id="boton-fuego">Fuego 🔥</button>
+               <button id="boton-agua">Agua 💧</button>
+               <button id="boton-tierra">Tierra 🌱</button>
+            </p>
+         </section>
+
+         <section id="mensajes">
+         </section>
+
+         <section id="reiniciar">
+            <button id="boton-reiniciar">Reiniciar</button>
+      
+         </section>
+      </main>
+   </body>
+</html>
